@@ -1,4 +1,4 @@
-# my-vue-pinia
+# vue-typescript-pinia-form
 
 ## Project setup
 ```
