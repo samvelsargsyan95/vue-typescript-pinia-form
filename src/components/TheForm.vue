@@ -64,7 +64,10 @@ interface Form {
 
 // Define the structure for the rules using an interface
 interface Rules {
-  userName: { required: typeof required };
+  userName: { 
+    required: typeof required,
+    maxLength: ReturnType<typeof maxLength>
+  };
   phoneNumber: { 
     required: typeof required; 
     numeric: typeof numeric; 
@@ -97,7 +100,10 @@ export default {
     );
 
     const rules: Rules = {
-      userName: { required },
+      userName: { 
+        required,
+        maxLength: maxLength(32) 
+      },
       phoneNumber: { 
         required, 
         numeric, 
