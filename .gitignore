@@ -1,0 +1,21 @@
+# Dependency directory
+node_modules/
+
+# Environment configuration files
+.env
+.env.local
+.env.[environment]
+
+# Dist / build output
+dist/
+build/
+
+# Temporary files
+.DS_Store
+.idea/
+*.log
+
+# A typical TypeScript project might also ignore generated files
+*.tsbuildinfo
+node_modules
+node_modules
