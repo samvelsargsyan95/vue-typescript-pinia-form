@@ -16,7 +16,6 @@ yarn build
 ```
 
 ## Using the Application
-- Node version is v16.20.2
 - Navigate between the two tabs using the tab controls.
 - In the first tab, fill in the form with the user name, phone number, password, and validate the password.
 - Upon submission, the data is saved to Pinia and can be viewed in the second tab.
